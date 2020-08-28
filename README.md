@@ -24,7 +24,7 @@
 
 ![Gráfico 3 cerca](https://user-images.githubusercontent.com/69275311/91510107-16a1ac80-e8aa-11ea-96ba-ac45bd89ecf5.png)
 
-   + Gráfico 3: Órbitas del satélite junto a la superficie de la tierra y atmósfera completas:
++ Gráfico 3: Órbitas del satélite junto a la superficie de la tierra y atmósfera completas:
 
 ![Gráfico 2](https://user-images.githubusercontent.com/69275311/91510189-55cffd80-e8aa-11ea-8fc9-d00526184a60.png)
 
