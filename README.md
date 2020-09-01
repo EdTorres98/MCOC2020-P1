@@ -29,3 +29,9 @@
 ![Gráfico 2](https://user-images.githubusercontent.com/69275311/91510189-55cffd80-e8aa-11ea-8fc9-d00526184a60.png)
 
    + Se logra apreciar de mejor manera que para las dos órbitas en un t = 3.3 Horas y una vt = 24548 km/h, estas no sobrepasan la atmósfera, quedando al límite en el extremo izquierdo, situación la cual fue descrita en el gráfico 1.
+
+# Estudio de convergencia Método de Euler
+
++ Para el gráfico obtenido, se observa que al comparar las soluciones real, odeint, y eulerint para Nsubdivisiones(1,10,100), tenemos que las soluciones odeint y eulerint 100 son las que más se parecen y tienden a ser casi iguales a la solución real. Por lo que para la solución eulerint mientras menor sea la subdivisión, se alejará más de la solución real, siendo cada vez menos precisa, como se observa con eulerint 1.
+
+   ![entrega4](https://user-images.githubusercontent.com/69275311/91844187-fe70bb00-ec24-11ea-8120-c3053bddd91a.png)
