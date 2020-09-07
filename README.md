@@ -53,7 +53,7 @@
 + Odeint = 1.01 seg, Eulerint = 2.63 seg
 
 + P3- ¿Cuantas subdivisiones hay que usar para que la predicción con eulerint al final del tiempo esté en menos de un 1% de error? 
-+Utilizando en este caso N=1500 se obtuvo un 10% de error, ya que para N mayores el tiempo de ejecución era mucho mayor y era inviable realizarlo. A continuación se muestra la deriva en el tiempo para eulerint:
++ Utilizando en este caso N=1500 se obtuvo un 10% de error, ya que para N mayores el tiempo de ejecución era mucho mayor y era inviable realizarlo. A continuación se muestra la deriva en el tiempo para eulerint:
 
 ![P3](https://user-images.githubusercontent.com/69275311/92382057-5b1b1c80-f0e2-11ea-97d7-2ed70e9285e0.png)
 
@@ -67,7 +67,7 @@
 ![P4 2](https://user-images.githubusercontent.com/69275311/92382596-370c0b00-f0e3-11ea-88d7-fa47b971799a.png)
 
 + ¿Cuánta deriva incurre al agregar las correcciones J2 y J3? 
-+Observando el gráfico obtenido, la deriva obtenida es de 660.9 km, muy inferior a los 20868.8 km que se obstuvieron para el gráfico sin las mejoras de J2 y J3, por lo que aplicarlas son de gran utilidad para obtener resultados más precisos.
++ Observando el gráfico obtenido, la deriva obtenida es de 660.9 km, muy inferior a los 20868.8 km que se obstuvieron para el gráfico sin las mejoras de J2 y J3, por lo que aplicarlas son de gran utilidad para obtener resultados más precisos.
 
 + ¿Cuanto se demora su código en correr?
 + El código con las mejoras implementadas demoró 5.91 segundos.
