@@ -47,27 +47,27 @@
 
 ![P2](https://user-images.githubusercontent.com/69275311/92381236-d5e33800-f0e0-11ea-8af6-4864a66cf18e.png)
 
-+¿Cuánto deriva eulerint de odeint en este caso al final del tiempo?             
-+Al final del tiempo (24 horas), la deriva es de 20868.8 km
-+¿Cuanto se demora odeint y eulerint respectivamente en producir los resultados?          
-+Odeint = 1.01 seg, Eulerint = 2.63 seg
++ ¿Cuánto deriva eulerint de odeint en este caso al final del tiempo?             
++ Al final del tiempo (24 horas), la deriva es de 20868.8 km
++ ¿Cuanto se demora odeint y eulerint respectivamente en producir los resultados?          
++ Odeint = 1.01 seg, Eulerint = 2.63 seg
 
 + P3- ¿Cuantas subdivisiones hay que usar para que la predicción con eulerint al final del tiempo esté en menos de un 1% de error? 
 +Utilizando en este caso N=1500 se obtuvo un 10% de error, ya que para N mayores el tiempo de ejecución era mucho mayor y era inviable realizarlo. A continuación se muestra la deriva en el tiempo para eulerint:
 
 ![P3](https://user-images.githubusercontent.com/69275311/92382057-5b1b1c80-f0e2-11ea-97d7-2ed70e9285e0.png)
 
-+En este caso se obstuvo una deriva es de 750.2 km entre estos dos. Po otro lado el tiempo para producir los resultados de eulerint fueron 2947.57 seg o aproximadamente 49 minutos en ejecutar. Por lo que utilizar eulerint resulta ineficiente para estos casos.
++ En este caso se obstuvo una deriva es de 750.2 km entre estos dos. Po otro lado el tiempo para producir los resultados de eulerint fueron 2947.57 seg o aproximadamente 49 minutos en ejecutar. Por lo que utilizar eulerint resulta ineficiente para estos casos.
 
 +P4- Implementando las correcciones J2 y J3 y repitiendo los gráficos obtenidos se obtuvo lo siguiente:
 
 ![P4 1](https://user-images.githubusercontent.com/69275311/92382554-29ef1c00-f0e3-11ea-8fa2-40b233586736.png)
-+Se observa que la posición predicha para el satélite (color naranjo) con respecto a la posición obtenida anteriormente (color azul), es muy parecida, donde se nota una leve diferencia entre ambas curvas en su desplazamiento y llegando hacia el final de esta.
++ Se observa que la posición predicha para el satélite (color naranjo) con respecto a la posición obtenida anteriormente (color azul), es muy parecida, donde se nota una leve diferencia entre ambas curvas en su desplazamiento y llegando hacia el final de esta.
 
 ![P4 2](https://user-images.githubusercontent.com/69275311/92382596-370c0b00-f0e3-11ea-88d7-fa47b971799a.png)
 
-+¿Cuánta deriva incurre al agregar las correcciones J2 y J3? 
++ ¿Cuánta deriva incurre al agregar las correcciones J2 y J3? 
 +Observando el gráfico obtenido, la deriva obtenida es de 660.9 km, muy inferior a los 20868.8 km que se obstuvieron para el gráfico sin las mejoras de J2 y J3, por lo que aplicarlas son de gran utilidad para obtener resultados más precisos.
 
-+¿Cuanto se demora su código en correr?
-+El código con las mejoras implementadas demoró 5.91 segundos.
++ ¿Cuanto se demora su código en correr?
++ El código con las mejoras implementadas demoró 5.91 segundos.
