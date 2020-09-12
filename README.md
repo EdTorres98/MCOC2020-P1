@@ -71,3 +71,11 @@
 
 + ¿Cuanto se demora su código en correr?
 + El código con las mejoras implementadas demoró 5.91 segundos.
+
+# Entrega Final
+
++ Mejoras:
++ Se implementaron los términos Teserales que se otrogaron.
++ Se definieron nuevas contantes para obtener menor diferencia al operar números decimales.
++ Se agregó J4,J5,J6,J7,J8 para obtener una menor deriva que antes, utilizando legendre.py, logrando disminuir en gran cantidad lo obtenido al momento de implementar solamente J2 y J3.
++ Finalmente el programa da la deriva que otorga en km, pero al momento de comparar con "PRED" ocurre un error en el resultado, dando un valofr muy alejado, pudiendo ser un error de syntaxis que no permitió obtener el mismo valor que daba comprobandolo dentro del mismo programa comparando con odeint.
